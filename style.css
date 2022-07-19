@@ -1,0 +1,1275 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+    padding: 0.5rem;
+    background-color: black;
+}
+
+/* section 1 */
+
+.nav{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    height: 20vh;
+}
+
+.nav .box1{
+    margin-left: 3rem;
+}
+
+.nav .box2{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.nav .box3 div{
+    display: inline-block;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.nav .box3{
+    margin-left: 5rem;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav .box1 a{
+    text-transform: capitalize;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.nav .box2 a{
+    text-transform: capitalize;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.nav .box3 a{
+    text-transform: capitalize;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.nav .box3 .boxiii{
+    background: #2750e3;
+    border: 2px solid #2750e3;
+    padding: 0.3rem 0.7rem;
+    border-radius: 5px;
+    margin-right: 0.7rem;
+
+}
+
+.nav .box3 .boxiv{
+    border: 2px solid #000000;
+    padding: 0.3rem 0.7rem;
+    box-shadow: -1px -1px 4px #FFFFFF, 1px 1px 4px #FFFFFF;
+    border-radius: 5px;
+}
+
+/* section 2 */
+
+.rect{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    height: 50vh;
+}
+
+.rect .rect1{
+    margin-left: 5rem;
+    /* width: 60%; */
+}
+
+.rect h1{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+}
+
+.rect .rect1 .meta{
+    color: #000000;
+    text-shadow: 1px 1px 0px white, -1px 1px 0px white, 1px -1px 0px white, -1px -1px 0px white;
+}
+
+.rect p{
+    color: white;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    width: 600px;
+}
+
+.rect a{
+    text-decoration: none;
+    color: white;
+}
+
+.rect1 .rect1i{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-top: 1rem;
+}
+
+.rect1 .rect1i .ex{   
+    background: #2750e3;
+    border: 2px solid #2750e3;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    margin-right: 0.7rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+.rect .rect1i .up{
+    width: 15%;
+    border: 2px solid #000000;
+    padding: 0.3rem 0.7rem;
+    box-shadow: -1px -1px 4px #FFFFFF, 1px 1px 4px #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.rect2{
+    width: 85%;
+
+}
+
+.rect2 .img{
+    border: 1px solid black;
+    display: flex;
+    height: 50vh;
+    align-content: center;
+    background-image: url(./img/omk\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+/* section 3 */
+
+.nav2{
+    width: 95%;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.nav2 .it{
+    text-transform: capitalize;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: white;
+}
+
+.nav2 a{
+    color: green;
+    text-decoration: none;
+}
+
+.nav2 .wa{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    background: #2c2d2f;
+    border: 1px solid #2c2d2f;
+    padding: 0.2rem 1rem;
+    border-radius: 5px;
+    margin-right: 7rem;
+    margin-bottom: 1rem;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 1rem;
+    background-color: black;
+    border: 1px;
+    width: 85%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.gallery .card{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #222222;
+    border: 0.5px solid #230F0130;
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    pad: 1.5rem;
+    border-radius: 5px;
+}
+
+
+.gallery .card .img2{
+    width: 60%;
+    height: 60px;
+    border: 1px;
+    padding: 1.5rem;
+    background-image: url(./img/logo5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 1rem;
+    background-position: center center;
+}
+
+.card a{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.gallery .card .alpha{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/* section 5 */
+
+.nav3{
+    width: 86%;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.nav3 .nf{
+    text-transform: capitalize;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: white;
+}
+
+.nav3 .navbox{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.navbox a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav3 .navbox .previous{
+    padding: 1px 10px;
+    background-color: #222222;
+    opacity: 25%;
+}
+
+.nav3 .navbox .next{
+    padding: 1px 10px;
+    background-color: #222222;
+}
+
+/* section 6 */
+
+.gallery2{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 86%;
+}
+
+.gallery2 .card2{
+    padding: 0.5rem;
+    border: 2px solid #390b0b;
+    border-radius: 5px;
+    background-color: #390b0b30;
+    height: 60vh;
+}
+
+.gallery2 .card2 .img3{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    align-content: center;
+    background-image: url(./img/omk\ \(3\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.likes{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 26%;
+    border: 1px solid whitesmoke;
+    height: 1.6rem;
+    border-radius: 17px;
+    margin-left: 70%;
+    margin-top: 1rem;
+    padding:0.2rem ;
+    background-color: #FFFFFF40;
+}
+
+.likes a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;   
+}
+
+.likes .fa-heart{
+    color: #FFFFFF; 
+}
+
+/* .card2 .img3 .widgetbox{ */
+    /* display: flex; */
+    /* align-content: center; */
+    /* border: 1px solid whitesmoke; */
+    /* width: 85%; */
+    /* margin: auto; */
+    /* margin-top: 7rem; */
+/* } */
+
+.img3 .widgetbox .widget{
+    display: flex;
+    align-content: center;
+    border: 1px solid whitesmoke;
+    width: 85%;
+    margin: auto;
+    margin-top: 7rem;
+    border-radius: 10px;
+    background-color: #FFFFFF40;
+}
+
+.widgetbox .widget .vol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.widget .vol h3{
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.widget .vol .fa-ethereum{
+    color: #FFFFFF;
+}
+
+.vol .fa-ethereum a{
+    margin-left: 0.2rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 15px;
+
+}
+
+.widgetbox .widget .name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.widget .name h3{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.widget .name h4{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.gallery2 .card2 .stock{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.card2 .stock h2{
+    text-transform: capitalize;
+    color: whitesmoke;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.card2 .stock .fa-heart{
+    color: #000000;
+    text-shadow: 1px 1px 0px white, -1px 1px 0px white, 1px -1px 0px white, -1px -1px 0px white;
+}
+
+.gallery2 .card2 .vigor{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+}
+
+.card2 .vigor h2{
+    text-transform: capitalize;
+    color: whitesmoke;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.gallery2 .card2 .fancy{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card2 .fancy h2{
+    color: whitesmoke;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.card2 .bid a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.card2 .bid{
+    margin: auto;
+    background: #2750e3;
+    border: 2px solid #2750e3;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    width: 70%;
+    text-align: center;
+}
+
+/* section 7 */
+
+.nav4{
+    width: 95%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+.nav4 .collections{
+    margin-left: 5rem;
+    color: whitesmoke;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: white;
+}
+
+.nav4 .exc{
+    display: grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-right: 2rem;
+}
+
+.nav4 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.nav4 .all{
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid #390b0b;
+    border-radius: 5px;
+    background-color: #390b0b30;
+}
+
+/* section 8 */
+
+.gallery3{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 86%;
+}
+
+.gallery3 .card3{
+    padding: 0.5rem;
+    border: 2px solid #390b0b;
+    border-radius: 5px;
+    background-color: #390b0b30;
+    height: 60vh;
+}
+
+.gallery3 .card3 .img4{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    align-content: center;
+    background-image: url(./img/Desert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.gallery3 .card3 .stock{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.card3 .stock h2{
+    text-transform: capitalize;
+    color: whitesmoke;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.card3 .stock .fa-heart{
+    color: #000000;
+    text-shadow: 1px 1px 0px white, -1px 1px 0px white, 1px -1px 0px white, -1px -1px 0px white;   
+}
+
+.gallery3 .card3 .vigor{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+}
+
+.card3 .vigor h2{
+    text-transform: capitalize;
+    color: whitesmoke;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.gallery3 .card3 .fancy{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card3 .fancy h2{
+    color: whitesmoke;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.card3 .bid a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.card3 .bid{
+    margin: auto;
+    background: #2750e3;
+    border: 2px solid #2750e3;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    width: 70%;
+    text-align: center;
+}
+
+/* section 9 */
+
+.nav5{
+    margin-top: 10rem;
+    margin-left: 5rem;
+    color: whitesmoke;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+}
+
+/* section 10 */
+
+.gallery4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    background-color: black;
+    border: 1px;
+    width: 85%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.gallery4 .card4{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color:#090909 ;
+    border: 2px solid #230F01;
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+    flex-direction: column;
+    pad: 1.5rem;
+    border-radius: 5px;
+}
+
+
+.gallery4 .card4 .img5{
+    width: 50px;
+    height: 50px;
+    border: 1px;
+    padding: 1.5rem;
+    background-image: url(./img/Chrysanthemum.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background-position: center center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.card4 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.gallery4 .card4 .alpha{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.gallery4 .card4 p{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+
+}
+
+/* section 11 */
+
+.nav6{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    color: whitesmoke;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+}
+
+/* section 12 */
+
+.gallery5{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: black;
+    border: 1px;
+    width: 85%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+.carda{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    background-color: black;
+    border: 1px;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.carda .card5a{
+    display: flex;
+    align-content: center;
+    gap: 1rem;
+    background-color: #0A0D17 ;
+    border: 2px solid #230F01;
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+    pad: 1.5rem;
+    border-radius: 5px;
+}
+
+.carda .card5{
+    display: flex;
+    align-content: center;
+    gap: 1rem;
+    background-color: #0A0D17 ;
+    border: 1px;
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+    pad: 1.5rem;
+    border-radius: 5px;
+}
+
+
+.cardb{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    background-color: black;
+    border: 1px;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.cardb .card5{
+    display: flex;
+    align-content: center;
+    gap: 1rem;
+    background-color: #0A0D17 ;
+    border: 1px;
+    width: 100%;
+    margin: auto;
+    pad: 1.5rem;
+    border-radius: 5px;
+}
+
+.gallery5 .img6{
+    width: 70px;
+    height: 70px;
+    border: 1px;
+    padding: 1.5rem;
+    background-image: url(./img/selfie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background-position: center center;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.card5a .crypto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    color: whitesmoke;
+}
+
+.card5a .crypto h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.card5a .crypto a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 0.3rem;
+
+}
+
+.card5a .check{
+    margin-left: 2.2rem;
+}
+
+.card5 .check{
+    margin-left: 2.2rem;
+}
+
+.gallery5 .fa-circle-check{
+    color: #2750e3;
+    
+}
+
+.card5 .crypto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    color: whitesmoke;
+}
+
+.card5 .crypto h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.card5 .crypto a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 0.3rem;
+
+}
+
+/* section 13 */
+
+.gallery6{
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 85%;
+    border: 1px;
+    margin-bottom: 2rem;
+}
+
+.gallery6 .picbox{
+    display: flex;
+    align-content: center;
+    gap: 2rem;
+    width: 50%;
+}
+
+.gallery6 .picbox .picbox1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.picbox .picbox1 .img7{
+    width: 243px;
+    height: 227px;
+    border: 1px;
+    padding: 1.5rem;
+    background-image: url(./img/istockphoto-1084428438-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 6px;
+}
+
+.picbox1 .img7 .img{
+    width: 70px;
+    height: 70px;
+    border: 2px solid white;
+    padding: 1.5rem;
+    background-image: url(./img/selfie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 80%;
+    margin-left: 90%;
+    background-position: center center;
+    border-radius: 50%;   
+}
+
+.picbox .picbox1 .img8{
+    width: 197px;
+    height: 214px;
+    border: 1px;
+    padding: 1.5rem;
+    background-image: url(./img/istockphoto-1364903907-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 6px;
+    margin-left: 46px;
+}
+
+.picbox1 .img8 .img{
+    width: 70px;
+    height: 70px;
+    border: 2px solid white;
+    padding: 1.5rem;
+    background-image: url(./img/selfie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 95%;
+    margin-left: 90%;
+    background-position: center center;
+    border-radius: 50%;
+}
+
+.picbox .picbox2 .img9{
+    width: 227px;
+    height: 218px;
+    border: 1px;
+    padding: 1.5rem;
+    background-image: url(./img/istockphoto-1393429999-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 6px;
+    margin-top: 30%;
+}
+
+.picbox2 .img9 .img{
+    width: 70px;
+    height: 70px;
+    border: 2px solid white;
+    padding: 1.5rem;
+    background-image: url(./img/selfie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 80%;
+    margin-left: 90%;
+    background-position: center center;
+    border-radius: 50%;
+}
+
+.gallery6 .nftbox{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    width: 48%;
+}
+
+.gallery6 .nftbox .nftbox1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 15%;
+}
+
+.gallery6 .nftbox1 h2{
+    color: whitesmoke;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 46px;
+    width: 60%;
+}
+
+.gallery6 .nftbox1 p{
+    color: whitesmoke;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.nftbox .nftbox1 a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    background: #2750e3;
+    border: 2px solid #2750e3;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    width: 24%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
